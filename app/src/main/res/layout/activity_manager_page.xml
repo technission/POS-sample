@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".manager_page">
+
+    <TextView
+        android:id="@+id/txtView_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Management"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="19dp" />
+
+    <Button
+        android:id="@+id/btn_AddProduct"
+        android:layout_width="322dp"
+        android:layout_height="153dp"
+        android:backgroundTint="#2196F3"
+        android:text="Add Product"
+        android:textSize="40dp"
+        android:onClick="btn_Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <Button
+        android:id="@+id/btn_EditProduct"
+        android:layout_width="322dp"
+        android:layout_height="153dp"
+        android:backgroundTint="#2196F3"
+        android:onClick="btnEdit"
+        android:text="Edit Product"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432" />
+
+    <Button
+        android:id="@+id/btn_CurrentTrans"
+        android:layout_width="322dp"
+        android:layout_height="153dp"
+        android:backgroundTint="#2196F3"
+        android:text="Current Transactions"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <Button
+        android:id="@+id/btn_PastTrans"
+        android:layout_width="322dp"
+        android:layout_height="153dp"
+        android:backgroundTint="#2196F3"
+        android:text="Past Transactions"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+    <TextView
+        android:id="@+id/txtVIEW"
+        android:layout_width="369dp"
+        android:layout_height="655dp"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662" />
+</androidx.constraintlayout.widget.ConstraintLayout>
